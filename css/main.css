@@ -14,6 +14,11 @@ body {
   bottom: 0;
 }
 
+.grid-container {
+  max-width: 980px;
+  margin: auto;
+}
+
 a {
   text-decoration: none;
   display: inline;
@@ -107,22 +112,23 @@ nav .profile-link a {
 }
 
 .home-main-button {
-  width: 95px;
-  height: 45px;
-  background-color: black;
-  color: white;
-  border-radius: 11px;
-  display: grid;
+  width: 75px;
+  height: 20px;
+  border: 1px solid black;
+  padding: 10px 15px;
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: small;
-  letter-spacing: 1px;
   font-family: 'Lato', sans-serif;
-  box-shadow: 14px 18px 47px -3px rgba(0, 0, 0, 0.55);
 }
 
 .home-main-button:hover {
-  box-shadow: 14px 18px 47px -3px rgba(0, 0, 0, 0.95);
+  background-color: black;
+  color: white;
 }
 
 .blogs-main {
@@ -131,8 +137,9 @@ nav .profile-link a {
 }
 
 .blogs-news-container {
-  border-top: 1px solid red;
-  border-bottom: 1px solid blue;
+  background-image: url(../assets/img/hero.jpg);
+  background-size: cover;
+  background-position: left;
   padding: 0 50px 40px;
 }
 
@@ -160,7 +167,7 @@ nav .profile-link a {
 
 .blogs-news-info-container h2 {
   font-family: 'Playfair Display', serif;
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .blogs-new-info-container p {
@@ -171,10 +178,58 @@ nav .profile-link a {
   padding: 0 50px 40px;
 }
 
-.blogs-posts-container h3 {
+.blogs-posts-container h2 {
   font-family: 'Playfair Display', serif;
   margin-top: 50px;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
   text-align: center;
+}
+
+.blogs-button {
+  border: 1px solid black;
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+.blogs-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.blogs-posts-container .post-container {
+  margin-top: 20px;
+  display: inline-block;
+  padding-left: 10px;
+  max-width: 30%;
+  margin-bottom: 50px;
+}
+
+.blogs-posts-container .post-container #post-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.blogs-posts-container .post-container p {
+  margin-bottom: 30px;
+}
+
+.blogs-posts-container .post-container img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-image: url(../assets/img/steve-johnson-Xx_d26R37E4-unsplash.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border-top: 35px solid black;
+  text-align: center;
+}
+
+footer p {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  margin-top: 30px;
 }
