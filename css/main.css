@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
+
+header {
+  width: 100%;
+  height: 140px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-container {
+  width: 100%;
+  height: 50px;
+  display: grid;
+  background-image: url(/assets/img/steve-johnson-Xx_d26R37E4-unsplash.jpg);
+  background-size: cover;
+}
+
+header .header-icons-container .icons {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: end;
+  margin-right: 50px;
+}
+
+header .icons span::before {
+  /* los íconos se tratarán como fuentes */
+  color: white;
+  font-size: 30px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+  background-color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+nav .nav-logo-container {
+  margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+  height: 90px;
+  margin-top: 10px;
+}
+
+nav .profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  font-size: large;
+}
+
+nav .profile-link a {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.home-main {
+  height: 100%;
+  background-image: url(/assets/img/steve-johnson-Xx_d26R37E4-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container-title h1 {
+  font-size: 80px;
+  letter-spacing: 5px;
+  width: 50rem;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+.main-container-button {
+  background-color: #3b0d11;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 80px;
+}
+
+.main-container-button a {
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
