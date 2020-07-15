@@ -184,7 +184,7 @@ nav .profile-link a {
 .blogs-posts-container h2 {
   font-family: 'Playfair Display', serif;
   margin-top: 50px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid gray;
   padding-bottom: 10px;
   text-align: center;
 }
@@ -293,4 +293,60 @@ footer p {
 
 .contact-main-container img {
   width: 100px;
+  margin-right: 20px;
+}
+
+.profile-main-container {
+  padding: 70px 40px;
+  margin-bottom: 50px;
+  background-image: url(../assets/img/hero-me.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.profile-main-container img {
+  width: 430px;
+  margin-right: 35px;
+  border-right: 5px solid white;
+  border-top: 5px solid white;
+}
+
+.profile-main-container .profile-container {
+  display: flex;
+  color: white;
+}
+
+.profile-main-container .profile-container h2 {
+  font-size: 38px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+
+.profile-main-container .profile-container p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.profile-main-projects {
+  padding: 0 50px 40px;
+}
+
+.profile-main-projects h3 {
+  font-family: 'Playfair Display', serif;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.projects-main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-container {
+  padding: 0 5px;
+}
+
+.project-container h4 {
+  font-family: 'Playfair Display', serif;
 }
